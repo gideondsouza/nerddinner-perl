@@ -9,9 +9,9 @@ $eumm_version =~ s/_//;
 
 WriteMakefile(
     NAME                => 'NerdDinner',
-    AUTHOR              => q{YOUR NAME <youremail@example.com>},
+    AUTHOR              => q{Gideon Israel Dsouza <gideon@cpan.org>},
     VERSION_FROM        => 'lib/NerdDinner.pm',
-    ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
+    ABSTRACT            => 'A Full Fledged Dancer2 Example application',
     ($eumm_version >= 6.3001
       ? ('LICENSE'=> 'perl')
       : ()),
